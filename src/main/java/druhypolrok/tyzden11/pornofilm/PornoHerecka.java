@@ -78,6 +78,11 @@ public class PornoHerecka {
 
     public void robiGangbang(List<PornoHerec> pornoHerci) {
 
+        for(PornoHerec pornoherec : pornoHerci){
+            System.out.println(pornoherec.getMenoPriezvisko() + "sa zucastnil na obstastneni pornoherecky menom " + menoPriezvisko);
+            pornoherec.setObjemVacku(pornoherec.getObjemVacku() - 6.0);
+        }
+
         // sout bude "xyz sa zucastnil na obstastneni pornohereciky menom ... "
         // treba odcitat 6.0 z objemu vacku kazdeho pornoherca.
     }
